@@ -1,18 +1,9 @@
 # msm8953Pkg
-WIP Custom ARM UEFI firmware for msm8953
+edk2-msm8953 testing
 
-![alt text](https://blog.rickliu.im/wp-content/uploads/2019/04/IMG_20190308_220745.jpg "Boot manager on msm8953")
 
 # Current Status
-EMMC MMU PMIC GPIO Working
+Unknow
 
-# Linux Notes
-![alt text](https://blog.rickliu.im/wp-content/uploads/2019/03/Four_Penguins.jpeg)
-Linux kernel do boot but crashes pretty soon.\
-All four cores are up after a recent update of bootshim\
-You will need a device tree with the kernel.\
-Some development of the device specific device tree is needed.\
-For a partially working kernel, see https://github.com/rickliu2000/linux_nokia_msm8974
-
-# TO-DO
-We no longer need to implement MpPark since the recent update of bootshim by @imbushuo. A ram patch stops core 1-3 from being powered on before the old firmware exits
+PS:Port from Lumia930Pkg
+some of sources copy from qualcomm open sources project:lk.
