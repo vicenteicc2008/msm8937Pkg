@@ -23,11 +23,11 @@
 [PcdsFixedAtBuild.common]
   # Simple FrameBuffer
   gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferAddress|0x0FF00000|UINT32|0x30
-  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1080|UINT32|0x31
-  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|1920|UINT32|0x32
+  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferWidth|1280|UINT32|0x31
+  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferHeight|720|UINT32|0x32
   gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferPixelBpp|32|UINT32|0x33
-  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1080|UINT32|0x34
-  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|1920|UINT32|0x35
+  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleWidth|1280|UINT32|0x34
+  gmsm8953PkgTokenSpaceGuid.PcdMipiFrameBufferVisibleHeight|720|UINT32|0x35
   gArmPlatformTokenSpaceGuid.PcdSystemMemoryUefiRegionSize|0x08000000|UINT32|0x00000036
   #gArmPlatformTokenSpaceGuid.PcdCPUCoresStackBase|0x00C00000|UINT64|0x00000037
   gArmPlatformTokenSpaceGuid.PcdCPUCorePrimaryStackSize|0x10000|UINT32|0x00000038
